@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 
+import UserData from './components/UserData';
+
 import './App.css';
 
 class App extends React.Component {
@@ -45,7 +47,7 @@ class App extends React.Component {
     return (
       <div className="App">
       <h1>Github Card</h1>
-      
+      <UserData userProps={this.state.user} />
       </div>
     )
   }
