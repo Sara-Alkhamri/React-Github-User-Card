@@ -2,8 +2,10 @@ import React from 'react';
 import axios from 'axios';
 
 import UserData from './components/UserData';
+import FollowersData from './components/FollowersData';
 
 import './App.css';
+import FollowersCard from './components/FollowersCard';
 
 class App extends React.Component {
   constructor() {
@@ -48,6 +50,7 @@ class App extends React.Component {
       <div className="App">
       <h1>Github Card</h1>
       <UserData userProps={this.state.user} />
+      <FollowersData followersProps={this.state.followers} />
       </div>
     )
   }
