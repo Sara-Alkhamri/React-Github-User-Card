@@ -1,5 +1,13 @@
 .App {
+  /* text-align: center; */
+  font-family: sans-serif;
   text-align: center;
+  display: flex;
+  width: 83%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  
 }
 
 .App-logo {
@@ -17,6 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -30,4 +39,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+img {
+  width: 20%;
+
+}
+h2 {
+  color: #506fad;
+}
+
+
+.user {
+  flex-flow: column nowrap;
+  align-items: center;
+  position: relative;
+  /* background-image: linear-gradient(rgb(255, 255, 255), #7391b9); */
+  border-radius: 4px;
+  height: 50%;
+  margin: 100px;
+  padding: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(235, 224, 224, 0.24);
+}
+
+.followers {
+  /* flex-flow: column nowrap;
+  align-items: center;
+  position: relative; */
+  /* background-image: linear-gradient(rgb(255, 255, 255), #aab2bd); */
+  border-radius: 4px;
+  height: 50%;
+  margin: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(165, 181, 204, 0.24);
+  
 }

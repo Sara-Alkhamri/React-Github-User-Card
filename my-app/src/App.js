@@ -5,7 +5,7 @@ import UserData from './components/UserData';
 import FollowersData from './components/FollowersData';
 
 import './App.css';
-import FollowersCard from './components/FollowersCard';
+
 
 class App extends React.Component {
   constructor() {
@@ -54,16 +54,6 @@ class App extends React.Component {
       </div>
     )
   }
-
-
-
-
-
-
-
-
-
-
 
 }
 
